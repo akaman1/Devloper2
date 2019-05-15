@@ -6,6 +6,7 @@ public class WishServiceImpl implements WishService {
 
 	@Override
 	public String generateWishMessage() {
+		System.out.println("Hillo");
          Calendar cal=null;
          int hour=0;
        //  String msg=null;
